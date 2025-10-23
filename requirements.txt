@@ -5,3 +5,4 @@ langchain-community
 ctransformers
 python-dotenv
 openai
+huggingface-hub
