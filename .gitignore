@@ -1,0 +1,61 @@
+# ---------------------
+# Python + Streamlit + LangChain Project
+# ---------------------
+
+# Virtual environment folders
+venv/
+.venv/
+myenv/
+env/
+ENV/
+.virtualenv/
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & API keys
+.env
+.env.*
+*.json
+*.yaml
+*.yml
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Model files (large binaries)
+models/
+*.bin
+*.ckpt
+*.pt
+*.pth
+
+# Temporary or backup files
+*.tmp
+*.bak
