@@ -2,5 +2,6 @@ streamlit
 langchain
 langchain-core
 langchain-community
-openai
+ctransformers
 python-dotenv
+openai

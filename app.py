@@ -1,6 +1,7 @@
 import streamlit as st
 from langchain_core.prompts import PromptTemplate
-from langchain.llms import CTransformers
+from langchain_community.llms import CTransformers
+
 
 
 
