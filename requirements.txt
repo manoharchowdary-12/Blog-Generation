@@ -2,7 +2,5 @@ streamlit
 langchain
 langchain-core
 langchain-community
-ctransformers
-python-dotenv
-openai
+ctransformers==0.2.27
 huggingface-hub
