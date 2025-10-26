@@ -17,8 +17,10 @@ def getLLamaresponse(input_text, no_words, blog_style):
 
     # Prompt Template
     template = """
-        Write a blog for {blog_style} job profile on the topic "{input_text}"
-        within {no_words} words.
+        Write a well-structured blog about "{input_text}" for {blog_style}.
+        Approximate length: {no_words} words.
+        Make sure the content ends with a complete conclusion.
+
     """
 
     prompt = PromptTemplate(
